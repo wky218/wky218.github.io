@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <meta charset="UTF-8">
+        <title>圣遗物信息查询</title>
+        
+
+          <!-- <span class="btn-wrap">
+            <a href="#" class="btn">Join us</a>
+          </span> -->
+       
+        <style>/* 如需控制边框和表格内容之间的间距，应使用td和th元素的填充属性： */
+            table, td, th
+            {
+                border:1px solid black;
+            }
+            td
+            {
+                padding:15px;
+            }
+            table
+            {
+                width:100%;
+                text-align: center;
+            }
+            th
+            {
+                height: 50px;
+            }
+            input {
+            width: fit-content;
+            height: 15px;
+            }
+            
+    /* Generic Styles */
+    ul{
+      width: 600px;
+      height:40px;
+      background-color: #ffffff;
+      width: 100%;
+    }
+    ul li{
+      list-style: none;
+      float: left;
+    }
+    a{
+      color: #8be8f8;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+      .nav1,.nav3,.nav5{
+        position: relative;/* 设置相对定位 */
+        display: inline-block;/* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+      }
+      
+      .nav2{
+        display: none;
+        position: absolute;
+        background-color: #8be8f8;
+        min-width: 148px;
+      } /* 将a标签设置为块级标签 */
+      .nav4{
+        display: none;
+        position: absolute;
+        background-color: #8be8f8;
+        min-width: 148px;
+      } /* 将a标签设置为块级标签 */
+      
+      .nav2 a{
+        color: white;
+        padding:12px 35px;
+        display: block;
+      }
+      .nav4 a{
+        color: white;
+        padding:12px 30px;
+        display: block;
+      }
+      
+      .nav2 a:hover{
+        background-color: #1ea3bb;
+      }
+      .nav4 a:hover{
+        background-color: #1ea3bb;
+      }
+      
+     
+      .nav1:hover .nav2{
+        display: block;
+      }
+      .nav3:hover .nav4{
+        display: block;
+      }
+      
+      .nav1:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      .nav3:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      .nav5:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      
+            </style>
+    </head>
+
+    <body>
+          <ul>
+           
+            <li><div><img src="img/mihoyo.png"height="40px"></div></li>
+            <Li><a href="web_Login.html"><img src="img/logout.png"height="40px"></a></Li>
+                <div class="nav1"><a href="web_blank1.html"><img src="img/jueseicon.png"height="40px"></a>
+                    <div class="nav2">
+                      <a href="web_ice.html">冰系角色</a>
+                      <a href="web_fire.html">火系角色</a>
+                      <a href="web_water.html">水系角色</a>
+                      <a href="web_thunder.html">雷系角色</a>
+                      <a href="web_winder.html">风系角色</a>
+                      <a href="web_rock.html">岩系角色</a>
+                      <a href="web_grass.html">草系角色</a>
+                    </div>
+                </div>
+                <div class="nav3"><a href="web_blank2.html"><img src="img/wuqiicon.png"height="40px"></i></a>
+                    <div class="nav4">
+                      <a href="web_sword.html">单手剑</a>
+                      <a href="web_epee.html">双手剑</a>
+                      <a href="web_bow.html">弓</a>  
+                      <a href="web_spear.html">长枪</a>  
+                      <a href="web_magic.html">法器</a> 
+                    </div>
+                </div>    
+                <div class="nav5"><a href="web_blank3.html"><img src="img/shengyiwuicon.png"height="40px"></i></a>
+        
+                </div>
+                
+          </ul>
+          
+          <table border="1px" ><!-- 表格 table//行 tr//列 td -->
+            <tr>
+                <td colspan="10"align="center">圣遗物信息查询</td>
+            </tr>
+            <tr>
+                <td width="20px">圣遗物</td><td>生之花</td><td>死之羽</td><td>时之沙</td><td>空之杯</td><td>理之冠</td><td>套装效果</td><td>故事背景</td>
+            </tr>
+            <tr>
+                <td>流浪大地的乐团</td><td>乐团的晨光<br><br><img src="img/yuetuanhua.png"width="70px"></td><td>琴师的箭羽<br><br><img src="img/yuetuanyu.png"width="70px"></td><td>终幕的时计<br><br><img src="img/yuetuansha.png"width="70px"></td><td>吟游者之壶<br><br><img src="img/yuetuanbei.png"width="70px"></td><td>指挥的礼帽<br><br><img src="img/yuetuantou.png"width="70px"></td><td>
+                    2件套	元素精通提高80点。<br>
+                    4件套	装备该圣遗物套装的角色为法器、弓箭角色时，角色重击造成的伤害提高35%。</td><td>漂亮的礼帽，历经岁月却依然光彩照人。<br>
+                        仔细倾听，似乎回荡着古老悠扬的乐声。
+                        千百年前，一支乐团在大地上流浪。
+                        乐团无乐谱。见所见而歌，闻所闻而奏。
+                        后来，随着乐团愈发见识到世界的广袤，
+                        「啊啊。这世上，可唱的竟有如此之多」
+                        成员们以音符为语言，将所见所闻写下。
+                        至死仍将流浪乐章掬在手中的便是指挥。
+                        尽管饱经风霜，但依旧光彩照人的礼帽。其中似乎回荡着古老悠扬的乐声。</td>
+            </tr>
+            <tr>
+                <td>辰砂往生录</td><td>生灵之华<br><br><img src="img/chenshahua.png"width="70px"></td><td>潜光片羽<br><br><img src="img/chenshayu.png"width="70px"></td><td>阳辔之遗<br><br><img src="img/chenshasha.png"width="70px"></td><td>结契之刻<br><br><img src="img/chenshabei.png"width="70px"></td><td>虺雷之姿<br><br><img src="img/chenshatou.png"width="70px"></td><td>
+                    
+2件套	攻击力提高18%。<br>
+4件套	施放元素爆发后，将产生持续16秒的「潜光」效果：攻击力提升8%；并在角色的生命值降低时，攻击力进一步提升10%，至多通过这种方式提升4次，每0.8秒至多触发一次。「潜光」效果将在角色退场时消失；持续期间再次施放元素爆发，将移除原有的「潜光」。</td><td>
+                        天遒有夜叉，四臂何磊魁。
+                        远来层岩里，诸部扬讴歌。<br>
+                        丰肴莫虚归，觞至更无余。
+                        扬刃入渊谷，为民息幽祸。<br>
+                        捷疾悍似鬼，紫目烁凶光。
+                        震电绝死翳，虺雷溶青波。<br>
+                        云霓掩渊薮，盘卷吞星河。
+                        狂飙复奔流，辰砂隐昏黑。<br>
+                        渊崩引地鸣，倏然皆静默。
+                        浓云凝夕照，栖鸟泣残歌：<br>
+                        「君不闻，朔风萧瑟鼓角落，人杰淹冉没回涡」<br>
+                        「竟不见，夜叉酣斗争天曙，空余长叹何蹉跎」</td>
+            </tr>
+            <tr>
+                <td>炽烈的炎之魔女</td><td>魔女的炎之花<br><img src="img/monvhua.png"width="70px"></td><td>魔女常燃之羽<br><img src="img/monvyu.png"width="70px"></td><td>魔女破灭之时<br><img src="img/monvsha.png"width="70px"></td><td>魔女的心之火<br><img src="img/monvbei.png"width="70px"></td><td>焦灼的魔女帽<br><img src="img/monvtou.png"width="70px"></td><td width="240px">
+                    
+
+                    2件套	获得15%火元素伤害加成。<br>
+                    4件套	超载、燃烧、烈绽放反应造成的伤害提升40%，蒸发、融化反应的加成系数提高15%。施放元素战技后的10秒内，二件套的效果提高50%，该效果最多叠加3次。
+                    </td><td>
+                        有着宽大帽檐的传统尖头魔女帽，<br>
+                        能为魔女带来敬畏与恐惧的目光。<br>
+                        对于炎之魔女而言，这样的大帽子能屏断周围的芜杂，<br>
+                        在她早年求学时，得以心无旁骛地磨砺自己的火之力。<br>
+                        在她投身战斗后，不必看着被烈焰啃噬的魔物在狂舞中散成灰的模样。<br>
+                        在望向水面时，也不必看见自己因为烟雾与烈焰变得焦灼破碎的面容。<br>
+                        魔女就是这样盲目地持续燃烧的。<br>曾经梦想烧尽世间魔物的炎之魔女曾经戴过的帽子。宽大的帽檐能遮挡她的视线。</td>
+            </tr>
+            <tr>
+                <td>冰风迷途的勇士</td><td>历经风雪的思念<img src="img/binghua.png"width="70px"></td><td>摧冰而行的执望<img src="img/bingyu.png"width="70px"></td><td>冰雪故园的终期<img src="img/bingsha.png"width="70px"></td><td>遍结寒霜的傲骨<img src="img/bingbei.png"width="70px"></td><td>破冰踏雪的回音<img src="img/bingtou.png"width="70px"></td><td>      
+2件套	获得15%冰元素伤害加成。<br> 
+4件套	攻击处于冰元素影响下的敌人时，暴击率提高20%；若敌人处于冻结状态下，则暴击率额外提高20%。
+</td><td>
+    英雄身负雪都仅剩的渺小希望，踏上寻找救赎之旅。<br>
+    头戴寒冬的冠冕，高傲地消失在无垠寒风雪暴之中。<br>
+    
+    背负着山城的契约，背负着清澈的目光，沧桑的勇士从来不曾恐惧冰幕外的未知。<br>
+    曾经一度苍翠的山间盛景、久远高天不再降下的祝福，皆是勇士永无停歇的动力。<br>
+    
+    「越过冰封的门扉，走下深邃的回廊」<br>
+    「他折下银白枝条，为雪国带来希望」<br>
+    
+    少女为族人唱着安抚的歌，呵护着有关于他的一切记忆。<br>
+    她坚信他会回到身旁，携着和煦春光与无可变夺的希望。<br>
+    
+    但在最后踏雪而去的勇士终究没能及时返回。<br>
+    久已磨灭于风雪的憎恨言语控诉着他的逃亡…<br>
+    
+    
+    梦想征服冰雪的古代英雄冠冕，是驱使它的故主直面刻骨寒冬的勇气之证。</td>
+            </tr>
+            <tr>
+                <td>华馆梦醒形骸记</td><td>荣花之期<br><br><img src="img/huaguanhua.png"width="70px"></td><td>华馆之羽<br><br><img src="img/huaguanyu.png"width="70px"></td><td>众生之谣<br><br><img src="img/huaguansha.png"width="70px"></td><td>梦醒之瓢<br><br><img src="img/huaguanbei.png"width="70px"></td><td>形骸之笠<br><br><img src="img/huaguantou.png"width="70px"></td><td>
+
+                    2件套	防御力提高30%。<br>
+                    4件套	装备此圣遗物套装的角色在以下情况下，将获得「问答」效果：在场上用岩元素攻击命中敌人后获得一层，每0.3秒至多触发一次；在队伍后台中，每3秒获得一层。问答至多叠加4层，每层能提供6%防御力与6%岩元素伤害加成。每6秒，若未获得问答效果，将损失一层。
+                    </td><td>
+                        他最初是作为「心」的容器而诞生，
+却在睡梦中淌下泪珠。<br>
+创造者无可奈何地察觉到：
+他无论作为器物或人类，都过于脆弱了。<br>
+
+创造者不忍将他毁弃，于是让他继续沉睡下去。<br>
+在她之后的创造里，也摒弃了存放心脏的设计。<br>
+不久后，世间最为尊贵、最为殊胜的「证」，<br>
+便因无处安放，被送到了影向山的大社之中。<br>
+
+后来，美丽的人偶苏醒了，开始了流浪。
+他见到了许许多多的心，<br>
+善良的，正直的，坚毅的，柔软的…
+人偶也想拥有一颗心脏。<br>
+
+再后来，美丽的人偶终于拿到了那颗「心」，<br>
+那是他诞生的意义，存在的目的。<br>
+但是，它却并非人偶真正想要的东西，<br>
+因为它并未蕴含任何祝福，
+只是一颗用友善的外表所包裹的，<br>
+充满自私、虚伪、狡诈与诅咒的祭品。
+
+善与恶，皆是众生之谣，无用而聒噪。
+但只要将这颗「心」挖出来，<br>
+就什么都感受不到了…
+
+
+于稻妻而言乃是舶来品的小物件。名为机芯的零件已被卸下，指针也不再转动。</td>
+            </tr>
+            <tr>
+                <td>昔日宗室之仪</td><td>宗室之花<br><br><img src="img/zongshihua.png"width="70px"></td><td>宗室之翎<br><br><img src="img/zongshiyu.png"width="70px"></td><td>宗室时计<br><br><img src="img/zongshisha.png"width="70px"></td><td>宗室银瓮<br><br><img src="img/zongshibei.png"width="70px"></td><td>宗室面具<br><br><img src="img/zongshitou.png"width="70px"></td><td>
+                    
+2件套	元素爆发造成的伤害提升20％ 。<br>
+4件套	施放元素爆发后，队伍中所有角色攻击力提升20％，持续12秒。该效果不可叠加。</td><td>镶嵌着黄金与宝石，刻有精致雕花图案的白银面具。<br>
+    做工精良细致，无处不彰显着古时贵族的优雅礼仪。<br>
+    曾支配蒙德的旧日贵族，本也是人民中脱颖而出的英雄。<br>
+    伟大的族长与优雅的公子，美丽的公主与尊贵的夫人们，<br>
+    也曾在宴会之中和属地上的子民共同享受饮食与欢乐。<br>
+    在那个遥远的时代，从未有贵族吝惜自己的智慧与优雅。<br>
+    在那个黄金的年代，贵族把知识和利润公平地分与众人。<br>
+    但后来，贵族渐渐堕落，宴会也蜕化成权贵虚浮的享乐。<br>
+    曾经属于旧日蒙德贵族的舞会面具，那空洞的眼眶依旧凝望着昔日的盛景。</td>
+            </tr>
+            <tr>
+                <td>翠绿之影</td><td>野花记忆的绿野<img src="img/fenghua.png"width="70px"></td><td>猎人青翠的箭羽<img src="img/fengyu.png"width="70px"></td><td>翠绿猎人的笃定<img src="img/fengsha.png"width="70px"></td><td>翠绿猎人的容器<img src="img/fengbei.png"width="70px"></td><td>翠绿的猎人之冠<img src="img/fengtou.png"width="70px"></td><td>      
+
+                    2件套	获得15%风元素伤害加成。<br> 
+                    4件套	扩散反应造成的伤害提升60%，根据扩散的元素类型，降低受到影响的敌人40%的对应元素抗性，持续10秒。
+</td><td>
+    曾经遍布大地，茂密生长的洁白野花。<br> 
+始终没有枯干，仍散发着清新的香气。<br> 
+
+在猎物横行大地的过去，彼时灾厄的魔物还没有诞生，<br> 
+猎人用现今已不知名的这种野花掩盖自己的人的气息。<br> 
+古时的人们传说，若是要寻找无言而温和的孤独猎人，<br> 
+就循着淡淡的野花香气，闭着眼赤脚在林间与原野走，<br> 
+只有像猎人那般行走，才不会踏碎落叶，令猎人警觉。<br> 
+
+另有传说：最终找到猎人的是个少年。<br> 
+彼时古国的灾厄刚刚发生。生灵涂炭。<br> 
+
+
+曾经遍布某地的野花，离开了大地，被猎人佩在胸前。</td>
+            </tr>
+            <style>
+            body{
+                padding: 0;
+                margin: 0;
+                height: 100vh;
+                /* display: flex; */
+                justify-content: center;
+                background-image: linear-gradient(#fffdfd 0%, #a4d5e9 100%);
+                background-size: cover;
+                flex: 1;
+                align-items: center;   /*居中*/
+                background-attachment: fixed;    /* 背景颜色全覆盖 */
+            }   
+            .login_btn{
+                justify-content: center;
+                text-align: center;
+                background-color: rgba(136, 180, 239, 0.582);
+                border: 1px solid rgb(25, 164, 164);
+                padding: 10px;
+                width: 300px;          /* 按钮长 */
+                height: 40px;       /* 按钮宽 */
+                border-radius: 15px;        /* 按钮大小 */
+                font-size: 20px;         /* 字体大小 */
+                color: rgb(34, 71, 141);
+                font-weight: 100;
+                margin-top: 10px;        /* 上下间距 */
+                align-items: center;
+                display:block;margin:0 auto   /* 整个按钮居中 */
+                
+            }
+            .login_btn:hover{
+                box-shadow: 2px 2px 15px 2px rgb(190,225,225);
+                background-color :transparent;
+                color: white;
+                /* 选择动画 */
+                animation: login_mation 0.5s;
+            }
+            /* 定义动画 */
+            @keyframes login_mation{
+                from{
+                    background-color: rgba(255, 255, 255, 0.582);
+                    box-shadow: 0px 0px 15px 2px rgb(190, 225, 225);
+                }
+                to{
+                    background-color: transparent;
+                    color: white;
+                    box-shadow: 2px 2px 15px 2px rgb(190, 225, 225);
+                }
+            }
+            </style>
+        </html>

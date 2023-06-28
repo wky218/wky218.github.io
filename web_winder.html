@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <meta charset="UTF-8">
+        <title>账号角色信息查询</title>
+        
+
+          <!-- <span class="btn-wrap">
+            <a href="#" class="btn">Join us</a>
+          </span> -->
+       
+        <style>/* 如需控制边框和表格内容之间的间距，应使用td和th元素的填充属性： */
+            table, td, th
+            {
+                border:1px solid black;
+            }
+            td
+            {
+                padding:15px;
+            }
+            table
+            {
+                width:100%;
+                text-align: center;
+            }
+            th
+            {
+                height: 50px;
+            }
+            input {
+            width: fit-content;
+            height: 15px;
+            }
+            
+    /* Generic Styles */
+    ul{
+      width: 600px;
+      height:40px;
+      background-color: #ffffff;
+      width: 100%;
+    }
+    ul li{
+      list-style: none;
+      float: left;
+    }
+    a{
+      color: #8be8f8;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+      .nav1,.nav3,.nav5{
+        position: relative;/* 设置相对定位 */
+        display: inline-block;/* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+      }
+      
+      .nav2{
+        display: none;
+        position: absolute;
+        background-color: #8be8f8;
+        min-width: 148px;
+      } /* 将a标签设置为块级标签 */
+      .nav4{
+        display: none;
+        position: absolute;
+        background-color: #8be8f8;
+        min-width: 148px;
+      } /* 将a标签设置为块级标签 */
+      
+      .nav2 a{
+        color: white;
+        padding:12px 35px;
+        display: block;
+      }
+      .nav4 a{
+        color: white;
+        padding:12px 30px;
+        display: block;
+      }
+      
+      .nav2 a:hover{
+        background-color: #1ea3bb;
+      }
+      .nav4 a:hover{
+        background-color: #1ea3bb;
+      }
+      
+     
+      .nav1:hover .nav2{
+        display: block;
+      }
+      .nav3:hover .nav4{
+        display: block;
+      }
+      
+      .nav1:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      .nav3:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      .nav5:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      
+            </style>
+    </head>
+
+    <body>
+          <ul>
+           
+            <li><div><img src="img/mihoyo.png"height="40px"></div></li>
+            <Li><a href="web_Login.html"><img src="img/logout.png"height="40px"></a></Li>
+                <div class="nav1"><a href="web_blank1.html"><img src="img/jueseicon.png"height="40px"></a>
+                    <div class="nav2">
+                      <a href="web_ice.html">冰系角色</a>
+                      <a href="web_fire.html">火系角色</a>
+                      <a href="web_water.html">水系角色</a>
+                      <a href="web_thunder.html">雷系角色</a>
+                      <a href="web_winder.html">风系角色</a>
+                      <a href="web_rock.html">岩系角色</a>
+                      <a href="web_grass.html">草系角色</a>
+                    </div>
+                </div>
+                <div class="nav3"><a href="web_blank2.html"><img src="img/wuqiicon.png"height="40px"></i></a>
+                    <div class="nav4">
+                      <a href="web_sword.html">单手剑</a>
+                      <a href="web_epee.html">双手剑</a>
+                      <a href="web_bow.html">弓</a>  
+                      <a href="web_spear.html">长枪</a>  
+                      <a href="web_magic.html">法器</a> 
+                    </div>
+                </div>    
+                <div class="nav5"><a href="web_blank3.html"><img src="img/shengyiwuicon.png"height="40px"></i></a>
+        
+                </div>
+                
+          </ul>
+          
+        
+          <table border="1px" ><!-- 表格 table//行 tr//列 td -->
+            <tr>
+                <td colspan="10"align="center">账号角色信息查询</td>
+            </tr>
+            <tr>
+                <td>照片</td><td>角色名</td><td>角色等级</td><td>神之眼</td><td>武器</td><td>武器名</td><td>命之座</td><td>圣遗物</td><td>国家</td><td>所属</td>
+            </tr>
+            <tr>
+                <td><img src="img/xiao.png"width="120px"></td><td>魈</td><td>90</td><td>风系</td><td>长枪</td><td>和璞鸢</td><td>金翅鹏王座-0</td><td>辰砂往生录</td><td>璃月</td><td>璃月仙人</td>
+            </tr>
+            <tr>
+                <td><img src="img/wanye.png"width="120px"></td><td>枫原万叶</td><td>90</td><td>风系</td><td>单手剑</td><td>苍古自由之誓</td><td>枫红座-0</td><td>翠绿之影</td><td>稻妻</td><td>南十字船队</td>
+            </tr>
+            <tr>
+                <td><img src="img/liulangzhe.png"width="120px"></td><td>流浪者</td><td>90</td><td>风系</td><td>法器</td><td>图莱杜拉的回忆</td><td>浪客座-0</td><td>沙上楼阁史话</td><td>须弥</td><td>无</td>
+            </tr>
+               
+            <style>
+           body{
+                padding: 0;
+                margin: 0;
+                height: 100vh;
+                /* display: flex; */
+                justify-content: center;
+                background-image: linear-gradient(#fffdfd 0%, #a4d5e9 100%);
+                background-size: cover;
+                flex: 1;
+                align-items: center;   /*居中*/
+                background-attachment: fixed;    /* 背景颜色全覆盖 */
+            }   
+            .login_btn{
+                justify-content: center;
+                text-align: center;
+                background-color: rgba(136, 180, 239, 0.582);
+                border: 1px solid rgb(25, 164, 164);
+                padding: 10px;
+                width: 300px;          /* 按钮长 */
+                height: 40px;       /* 按钮宽 */
+                border-radius: 15px;        /* 按钮大小 */
+                font-size: 20px;         /* 字体大小 */
+                color: rgb(34, 71, 141);
+                font-weight: 100;
+                margin-top: 10px;        /* 上下间距 */
+                align-items: center;
+                display:block;margin:0 auto   /* 整个按钮居中 */
+                
+            }
+            .login_btn:hover{
+                box-shadow: 2px 2px 15px 2px rgb(190,225,225);
+                background-color :transparent;
+                color: white;
+                /* 选择动画 */
+                animation: login_mation 0.5s;
+            }
+            /* 定义动画 */
+            @keyframes login_mation{
+                from{
+                    background-color: rgba(255, 255, 255, 0.582);
+                    box-shadow: 0px 0px 15px 2px rgb(190, 225, 225);
+                }
+                to{
+                    background-color: transparent;
+                    color: white;
+                    box-shadow: 2px 2px 15px 2px rgb(190, 225, 225);
+                }
+            }
+            </style>
+        </html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <meta charset="UTF-8">
+        <title>账号武器信息查询</title>
+        
+
+          <!-- <span class="btn-wrap">
+            <a href="#" class="btn">Join us</a>
+          </span> -->
+       
+        <style>/* 如需控制边框和表格内容之间的间距，应使用td和th元素的填充属性： */
+            table, td, th
+            {
+                border:1px solid black;
+            }
+            td
+            {
+                padding:15px;
+            }
+            table
+            {
+                width:100%;
+                text-align: center;
+            }
+            th
+            {
+                height: 50px;
+            }
+            input {
+            width: fit-content;
+            height: 15px;
+            }
+            
+    /* Generic Styles */
+    ul{
+      width: 600px;
+      height:40px;
+      background-color: #ffffff;
+      width: 100%;
+    }
+    ul li{
+      list-style: none;
+      float: left;
+    }
+    a{
+      color: #8be8f8;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+      .nav1,.nav3,.nav5{
+        position: relative;/* 设置相对定位 */
+        display: inline-block;/* 让元素具有块级元素和行内元素的特性,即将块级元素转化为内联元素 */
+      }
+      
+      .nav2{
+        display: none;
+        position: absolute;
+        background-color: #8be8f8;
+        min-width: 148px;
+      } /* 将a标签设置为块级标签 */
+      .nav4{
+        display: none;
+        position: absolute;
+        background-color: #8be8f8;
+        min-width: 148px;
+      } /* 将a标签设置为块级标签 */
+      
+      .nav2 a{
+        color: white;
+        padding:12px 35px;
+        display: block;
+      }
+      .nav4 a{
+        color: white;
+        padding:12px 30px;
+        display: block;
+      }
+      
+      .nav2 a:hover{
+        background-color: #1ea3bb;
+      }
+      .nav4 a:hover{
+        background-color: #1ea3bb;
+      }
+      
+     
+      .nav1:hover .nav2{
+        display: block;
+      }
+      .nav3:hover .nav4{
+        display: block;
+      }
+      
+      .nav1:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      .nav3:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      .nav5:hover,li:hover{
+        background-color: #8be8f8;
+        
+      }
+      
+            </style>
+    </head>
+
+    <body>
+          <ul>
+           
+            <li><div><img src="img/mihoyo.png"height="40px"></div></li>
+            <Li><a href="web_Login.html"><img src="img/logout.png"height="40px"></a></Li>
+                <div class="nav1"><a href="web_blank1.html"><img src="img/jueseicon.png"height="40px"></a>
+                    <div class="nav2">
+                      <a href="web_ice.html">冰系角色</a>
+                      <a href="web_fire.html">火系角色</a>
+                      <a href="web_water.html">水系角色</a>
+                      <a href="web_thunder.html">雷系角色</a>
+                      <a href="web_winder.html">风系角色</a>
+                      <a href="web_rock.html">岩系角色</a>
+                      <a href="web_grass.html">草系角色</a>
+                    </div>
+                </div>
+                <div class="nav3"><a href="web_blank2.html"><img src="img/wuqiicon.png"height="40px"></i></a>
+                    <div class="nav4">
+                      <a href="web_sword.html">单手剑</a>
+                      <a href="web_epee.html">双手剑</a>
+                      <a href="web_bow.html">弓</a>  
+                      <a href="web_spear.html">长枪</a>  
+                      <a href="web_magic.html">法器</a> 
+                    </div>
+                </div>    
+                <div class="nav5"><a href="web_blank3.html"><img src="img/shengyiwuicon.png"height="40px"></i></a>
+        
+                </div>
+                
+          </ul>
+          
+          <table border="1px" ><!-- 表格 table//行 tr//列 td -->
+            <tr>
+                <td colspan="10"align="center">账号武器信息查询</td>
+            </tr>
+            <tr>
+                <td>照片</td><td>武器名称</td><td>武器类型</td><td>副属性</td><td>武器描述</td><td>故事背景</td>
+            </tr>
+            <tr>
+                <td><img src="img/hepuyuan.png"width="100px"></td><td>和璞鸢</td><td>长枪</td><td>22.1%暴击率</td><td>昭理的鸢之枪</td><td>魔神翡玉化作的长枪，拥有刺杀远古海兽的沉重与锋利。</td>
+            </tr>
+            <tr>
+                <td><img src="img/humozhizhang.png"width="100px"></td><td>护摩之杖</td><td>长枪</td><td>66.2%暴击伤害</td><td>无羁的朱赤之蝶</td><td>在早已失落的古老祭仪中，使用的朱赤【柴火杖】。</td>
+            </tr>
+            <tr>
+                <td><img src="img/chisha.png"width="100px"></td><td>赤沙之杖</td><td>长枪</td><td>44.1%暴击率</td><td>蜃气尽头的热梦</td><td>黑曜石塑造的一对权杖中的一件。在传说中，具有引领沙之民的权威，但如今已经没有能辨别出这件王器形象的臣子了。</td>
+            </tr>
+            <tr>
+                <td><img src="img/ticao.png"width="100px"></td><td>薙草之稻光</td><td>长枪</td><td>55.1%元素充能效率</td><td>非时之梦·常世灶食</td><td>用于【斩草】的薙刀。对向此物之军势，也会如苇草般倒下吧…</td>
+            </tr>
+            <tr>
+                <td><img src="img/guanhong.png"width="100px"></td><td>贯虹之槊</td><td>长枪</td><td>49.6%攻击力</td><td>金璋皇极</td><td>或许能贯穿一切的锋利长枪。挥舞当中，仿佛能见到空气被枪尖划破的裂痕。</td>
+            </tr>
+            <tr>
+                <td><img src="img/tiankongqiang.png"width="100px"></td><td>天空之脊</td><td>长枪</td><td>36.8%元素充能效率</td><td>斫断黑翼的利齿</td><td>象征风龙坚定决心的长枪。直挺的枪杆直指天穹，蕴含苍空与长风的力量。</td>
+            </tr>
+            <tr>
+                <td><img src="img/boluan.png"width="100x"></td><td>波乱月白经津</td><td>单手剑</td><td>33.1%暴击率</td><td>白刃流转</td><td>经津传奉命锻造的名作。因其如汹涌海涛般的气度，而得【波乱】之名。</td>
+            </tr>
+            <tr>
+                <td><img src="img/wuqie.png"width="100px"></td><td>雾切之回光</td><td>单手剑</td><td>44.1%暴击伤害</td><td>雾切御腰物</td><td>闪烁着凄烈紫光的太刀。名之为【回光】是因为一度破碎的过去。</td>
+            </tr>
+            <tr>
+                <td><img src="img/caiye.png"width="100px"></td><td>裁叶萃光</td><td>单手剑</td><td>88.2%暴击伤害</td><td>白月枝芒</td><td>以珍贵的白枝制成的饰金之刃，曾经斩断无数浸染森林的黯毒</td>
+            </tr>
+            <tr>
+                <td><img src="img/canggu.png"width="100px"></td><td>苍古自由之誓</td><td>单手剑</td><td>198元素精通</td><td>抗争的践行之歌</td><td>如同悠古的歌声一般苍蓝的直剑，如同风之国土自由的誓言一般锐利的武器。</td>
+            </tr>
+            <tr>
+                <td><img src="img/tiankongren.png"width="100px"></td><td>天空之刃</td><td>单手剑</td><td>55.1%元素充能效率</td><td>穿刺高天的利齿</td><td>象征风龙的荣誉的骑士剑，如今失而复得。剑脊上吹息着风之神的赐福，蕴含苍空与长风的力量。</td>
+            </tr>
+            <tr>
+                <td><img src="img/chijiao.png"width="100px"></td><td>赤角石溃杵</td><td>双手剑</td><td>88.2%暴击伤害</td><td>御伽大王御伽话</td><td>依据过去的主人的说法，这是何等鬼怪精妖都能打跑的大杵【赤角石见石溃金涂金啮御狮子】</td>
+            </tr>
+            <tr>
+                <td><img src="img/langmo.png"width="100px"></td><td>狼的末路</td><td>双手剑</td><td>49.6%攻击力</td><td>如狼般狩猎者</td><td>狼的骑士所使的大剑。原本只是城中铁匠赠与的厚重的铁片，却在他与狼的情谊中，获得神话般的力量</td>
+            </tr>
+            <tr>
+                <td><img src="img/tiankongyi.png"width="100px"></td><td>天空之翼</td><td>弓</td><td>22.1%暴击率</td><td>回响长天的诗歌</td><td>象征风龙身为风之神眷属的大弓。释弦时的鸣声是风之神的偏爱，蕴含苍空与长风的力量。</td>
+            </tr>
+            <tr>
+                <td><img src="img/dongji.png"width="100px"></td><td>冬极白星</td><td>弓</td><td>33.1%暴击率</td><td>极昼的先兆者</td><td>如同深冬一样尖锐的无垢之弓</td>
+            </tr>
+            <tr>
+                <td><img src="img/lieren.png"width="100px"></td><td>猎人之径</td><td>弓</td><td>44.1%暴击率</td><td>兽径的终点</td><td>以珍贵的白枝制成的饰金猎弓，曾经射落无数浸染森林的恶兽。</td>
+            </tr>
+            <tr>
+                <td><img src="img/zhongmo.png"width="100px"></td><td>终末嗟叹之诗</td><td>弓</td><td>55.1%元素充能效率</td><td>别离的思念之歌</td><td>如同诗人的乐器一般优美的弓，放出的箭矢如同叹息声一般穿透人心。</td>
+            </tr>
+            <tr>
+                <td><img src="img/qianye.png"width="100px"></td><td>千夜浮梦</td><td>法器</td><td>265元素精通</td><td>千夜的曙歌</td><td>浮映千夜之梦的灯盏，苍翠的光中流溢着遥世的歌。</td>
+            </tr>
+            <tr>
+                <td><img src="img/shenle.png"width="100px"></td><td>神乐铃</td><td>法器</td><td>66.2%暴击伤害</td><td>神樱神游神乐舞</td><td>表演神乐之舞时所用的神铃，为宫司大人所赐福。神樱之香萦绕其上。</td>
+            </tr>
+            <tr>
+                <td><img src="img/tulai.png"width="100px"></td><td>图莱杜拉的回忆</td><td>法器</td><td>66.2%暴击伤害</td><td>堙没的蓝宝石泪滴</td><td>深蓝宝石与纯银雕成的铃铛，回响之声清脆悠远。</td>
+            </tr>
+
+            <style>
+             body{
+                padding: 0;
+                margin: 0;
+                height: 100vh;
+                /* display: flex; */
+                justify-content: center;
+                background-image: linear-gradient(#fffdfd 0%, #a4d5e9 100%);
+                background-size: cover;
+                flex: 1;
+                align-items: center;   /*居中*/
+                background-attachment: fixed;    /* 背景颜色全覆盖 */
+            }   
+            .login_btn{
+                justify-content: center;
+                text-align: center;
+                background-color: rgba(136, 180, 239, 0.582);
+                border: 1px solid rgb(25, 164, 164);
+                padding: 10px;
+                width: 300px;          /* 按钮长 */
+                height: 40px;       /* 按钮宽 */
+                border-radius: 15px;        /* 按钮大小 */
+                font-size: 20px;         /* 字体大小 */
+                color: rgb(34, 71, 141);
+                font-weight: 100;
+                margin-top: 10px;        /* 上下间距 */
+                align-items: center;
+                display:block;margin:0 auto   /* 整个按钮居中 */
+                
+            }
+            .login_btn:hover{
+                box-shadow: 2px 2px 15px 2px rgb(190,225,225);
+                background-color :transparent;
+                color: white;
+                /* 选择动画 */
+                animation: login_mation 0.5s;
+            }
+            /* 定义动画 */
+            @keyframes login_mation{
+                from{
+                    background-color: rgba(255, 255, 255, 0.582);
+                    box-shadow: 0px 0px 15px 2px rgb(190, 225, 225);
+                }
+                to{
+                    background-color: transparent;
+                    color: white;
+                    box-shadow: 2px 2px 15px 2px rgb(190, 225, 225);
+                }
+            }
+            </style>
+        </html>
